@@ -19,8 +19,23 @@
 <a href="https://leetcode.com/u/zakeer_official/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="zakeerahamad" height="30" width="40" /></a>
 </p>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=zakeer-official&show_icons=true&locale=en&layout=compact" alt="zakeerahamad" /></p>
+---
+<p align="center">
+  <img width="800" height="220" src="https://streak-stats.demolab.com?user=zakeer-official&theme=highcontrast&hide_border=true&border_radius=5&card_width=800">
+</p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=zakeer-official&show_icons=true&locale=en" alt="zakeerahamad" /></p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=zakeer-official&" alt="zakeerahamad" /></p>
+---
+
+
+
+
+<p align="center">
+  <img width="600" height="200" src="https://github-readme-stats.vercel.app/api?username=zakeer-official&show_icons=true&theme=vision-friendly-dark">
+  <img width="400" height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zakeer-official&size_weight=0.0005&count_weight=0.3&layout=compact&theme=vision-friendly-dark">
+</p>
+
+
+<div id="header" align="center">
+  <img src="https://komarev.com/ghpvc/?username=zakeer-official&style=for-the-badge&color=orange" alt=""/>
+</div>
