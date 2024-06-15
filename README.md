@@ -5,11 +5,6 @@
 <h4 align="center"><a href="https://zakeer-official.github.io/">zakeer-official.github.io</a></h4>
 
 
-- 👨‍💻 All of my projects are available at [https://github.com/zakeer-official](https://github.com/zakeer-official)
-- 💬 Ask me about anything, I am happy to help.
-- 🚀 I love creating seamless user experiences and solving complex problems through code.
-- 💼 I'm available for projects. If you have any opportunities, feel free to [contact me](https://www.linkedin.com/in/zakeer7/)!
-- 📫 How to reach me: [https://t.me/zakeerofficial](https://t.me/zakeerofficial)
 
 <h1 align="center"> Tech Stack </h1>
 <div align="center">
@@ -32,6 +27,18 @@
 <img src="https://skillicons.dev/icons?i=git" title="Git"/>
 <img src="https://skillicons.dev/icons?i=githubactions" title="GitHub Actions"/>
 </div>
+
+---
+
+<br>
+
+- 👨‍💻 All of my projects are available at [https://github.com/zakeer-official](https://github.com/zakeer-official)
+- 💬 Ask me about anything, I am happy to help.
+- 🚀 I love creating seamless user experiences and solving complex problems through code.
+- 💼 I'm available for projects. If you have any opportunities, feel free to [contact me](https://www.linkedin.com/in/zakeer7/)!
+- 📫 How to reach me: [https://t.me/zakeerofficial](https://t.me/zakeerofficial)
+
+---
 
 <h3 align="left">Connect with me:</h3>
 <div align="center">
