@@ -50,11 +50,15 @@
 </div>
 
 ---
+
 <h1 align="center">  GitHub Contributions Graph </h1>
 
-[![Github Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=zakeer-official&theme=github-dark)](https://github.com/zakeer-official)
+[![Github Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=zakeer-official&bg_color=0d1117&color=58a6ff&line=58a6ff&point=1f6feb&area=true&theme=github-dark)](https://github.com/zakeer-official)
+
 
 ---
+
+
 <p align="center">
   <img width="800" height="220" src="https://streak-stats.demolab.com?user=zakeer-official&theme=highcontrast&hide_border=true&border_radius=5&card_width=800">
 </p>
@@ -69,6 +73,22 @@
   <img width="600" height="200" src="https://github-readme-stats.vercel.app/api?username=zakeer-official&show_icons=true&theme=vision-friendly-dark">
   <img width="400" height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zakeer-official&size_weight=0.0005&count_weight=0.3&layout=compact&theme=vision-friendly-dark">
 </p>
+
+---
+
+
+#### Top Repositories
+
+<div align="center">
+<a href="https://github.com/zakeer-official/leetcode">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=zakeer-official&repo=leetcode&theme=buefy" />
+</a>
+<a href="https://github.com/zakeer-official/Natural-Gas-Consumption">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=zakeer-official&repo=Natural-Gas-Consumption&theme=buefy" />
+</a>
+</div>
+
+<br>
 
 
 <div id="header" align="center">
