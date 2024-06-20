@@ -70,18 +70,6 @@
   <img width="400" height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zakeer-official&size_weight=0.0005&count_weight=0.3&layout=compact&theme=vision-friendly-dark">
 </p>
 
----
-
-#### Top Repositories
-
-
-<a href="https://github.com/zakeer_official/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=zakeer-official&repo=github-readme-stats&theme=buefy" />
-</a>
-<a href="https://github.com/zakeer-official/zakeer-official.github.io">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=zakeer-official&repo=anuraghazra.github.io&theme=buefy" />
-</a>
-
 
 <div id="header" align="center">
   <img src="https://komarev.com/ghpvc/?username=zakeer-official&style=for-the-badge&color=orange" alt=""/>
