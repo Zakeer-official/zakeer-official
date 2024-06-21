@@ -30,6 +30,20 @@
 
 ---
 
+
+#### Top Repositories
+
+<div align="center">
+<a href="https://github.com/zakeer-official/leetcode">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=zakeer-official&repo=leetcode&theme=buefy" />
+</a>
+<a href="https://github.com/zakeer-official/Natural-Gas-Consumption">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=zakeer-official&repo=Natural-Gas-Consumption&theme=buefy" />
+</a>
+</div>
+
+---
+
 <br>
 
 - 👨‍💻 All of my projects are available at [https://github.com/zakeer-official](https://github.com/zakeer-official)
@@ -74,21 +88,7 @@
   <img width="400" height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zakeer-official&size_weight=0.05&count_weight=0.1&layout=compact&theme=vision-friendly-dark">
 </p>
 
----
 
-
-#### Top Repositories
-
-<div align="center">
-<a href="https://github.com/zakeer-official/leetcode">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=zakeer-official&repo=leetcode&theme=buefy" />
-</a>
-<a href="https://github.com/zakeer-official/Natural-Gas-Consumption">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=zakeer-official&repo=Natural-Gas-Consumption&theme=buefy" />
-</a>
-</div>
-
-<br>
 
 
 <div id="header" align="center">
