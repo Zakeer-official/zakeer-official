@@ -96,4 +96,4 @@
 </div>
 
 
-Profile views count: <!-- profile_views_count_placeholder -->
+Profile views count: Profile views count: 3
