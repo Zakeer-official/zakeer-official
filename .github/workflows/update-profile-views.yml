@@ -1,0 +1,39 @@
+name: Update Profile Views Counter
+
+on:
+  push:
+    branches:
+      - main  # Change to your default branch name if different
+
+jobs:
+  update-counter:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Update Counter
+        id: update-counter
+        run: |
+          if [[ "$GITHUB_ACTOR" != "zakeer-official" ]]; then
+            count=$(($(cat profile_views.txt) + 1))
+            echo $count > profile_views.txt
+            echo "::set-output name=changed::true"
+          else
+            echo "::set-output name=changed::false"
+          fi
+
+      - name: Update README
+        if: steps.update-counter.outputs.changed == 'true'
+        run: |
+          sed -i 's/!\[Profile Views\](.*)/![Profile Views](https:\/\/komarev.com\/ghpvc\/\?username=zakeer-official&color=orange&style=flat-square)/' README.md
+
+      - name: Commit and Push Changes
+        if: steps.update-counter.outputs.changed == 'true'
+        run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "GitHub Actions"
+          git add profile_views.txt README.md
+          git commit -m "Update profile views counter [skip ci]"
+          git push
