@@ -3,7 +3,7 @@ name: Update Profile Views Counter
 on:
   push:
     branches:
-      - main  # Change to your default branch name if different
+      - main  # Adjust to your default branch name if different
 
 jobs:
   update-counter:
@@ -27,7 +27,9 @@ jobs:
       - name: Update README
         if: steps.update-counter.outputs.changed == 'true'
         run: |
-          sed -i 's/!\[Profile Views\](.*)/![Profile Views](https:\/\/komarev.com\/ghpvc\/?username=zakeer-official&color=orange&style=flat-square)/' README.md
+          # Replace placeholder with actual profile views count
+          count=$(cat profile_views.txt)
+          sed -i "s|<!-- profile_views_count_placeholder -->|Profile views count: $count|" README.md
 
       - name: Commit and Push Changes
         if: steps.update-counter.outputs.changed == 'true'
@@ -36,4 +38,4 @@ jobs:
           git config --global user.name "GitHub Actions"
           git add profile_views.txt README.md
           git commit -m "Update profile views counter [skip ci]"
-          git push
+          git push origin main
