@@ -95,4 +95,4 @@
   <img src="https://komarev.com/ghpvc/?username=zakeer-official&style=for-the-badge&color=orange" alt=""/>
 </div>
 
-Profile views count: <!-- profile_views_count_placeholder -->
+Profile views count: Profile views count: 6
