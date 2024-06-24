@@ -101,6 +101,6 @@
   <span style="font-size: 1.5em; font-weight: bold;">Profile Views Count</span>
   <br/>
   <span style="font-size: 2.5em; color: orange;">
-    <!-- profile_views_count_placeholder -->
+    Profile views count: 7
   </span>
 </div>
