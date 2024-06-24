@@ -95,4 +95,12 @@
   <img src="https://komarev.com/ghpvc/?username=zakeer-official&style=for-the-badge&color=orange" alt=""/>
 </div>
 
-Profile views count: Profile views count: 6
+<div style="text-align: center; border: 1px solid orange; padding: 10px; margin: 0 auto; width: 200px;">
+  <img src="https://komarev.com/ghpvc/?username=zakeer-official&color=orange&style=flat-square" alt="Profile Views Badge"/>
+  <br/><br/>
+  <span style="font-size: 1.5em; font-weight: bold;">Profile Views Count</span>
+  <br/>
+  <span style="font-size: 2.5em; color: orange;">
+    <!-- profile_views_count_placeholder -->
+  </span>
+</div>
