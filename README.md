@@ -5,7 +5,6 @@
 <h4 align="center"><a href="https://zakeer-official.github.io/">zakeer-official.github.io</a></h4>
 
 
-
 <h1 align="center"> Tech Stack </h1>
 <div align="center">
 <img src="https://skillicons.dev/icons?i=c" title="C"/>
