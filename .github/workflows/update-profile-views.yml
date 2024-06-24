@@ -27,7 +27,7 @@ jobs:
       - name: Update README
         if: steps.update-counter.outputs.changed == 'true'
         run: |
-          sed -i 's/!\[Profile Views\](.*)/![Profile Views](https://komarev.com/ghpvc/?username=zakeer-official&color=orange&style=flat-square)/' README.md
+          sed -i 's/!\[Profile Views\](.*)/![Profile Views](https:\/\/komarev.com\/ghpvc\/?username=zakeer-official&color=orange&style=flat-square)/' README.md
 
       - name: Commit and Push Changes
         if: steps.update-counter.outputs.changed == 'true'
