@@ -96,4 +96,3 @@
 
 ![Profile Views](https://img.shields.io/badge/dynamic/json?color=blue&label=Profile%20Views&query=%24.profile_views&url=https://raw.githubusercontent.com/zakeer-official/zakeer-official/main/profile_count.json)
 
-    Profile count: 7
