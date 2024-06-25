@@ -56,7 +56,7 @@ jobs:
 
       - name: Increment Profile Views
         run: |
-          python profile_views.py  # Adjust filename if necessary
+          python3 profile_views.py  # Adjust filename if necessary
 
       - name: Update profile_views.json
         run: |
