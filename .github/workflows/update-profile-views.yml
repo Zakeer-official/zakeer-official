@@ -1,41 +1,70 @@
-name: Update Profile Views Counter
+# name: Update Profile Views Counter
+
+# on:
+#   push:
+#     branches:
+#       - main  # Adjust to your default branch name if different
+
+# jobs:
+#   update-counter:
+#     runs-on: ubuntu-latest
+
+#     steps:
+#       - name: Checkout Repository
+#         uses: actions/checkout@v2
+
+#       - name: Update Counter
+#         id: update-counter
+#         run: |
+#           if [[ "$GITHUB_ACTOR" != "zakeer-official" ]]; then
+#             count=$(($(cat profile_views.txt) + 1))
+#             echo $count > profile_views.txt
+#             echo "::set-output name=changed::true"
+#           else
+#             echo "::set-output name=changed::false"
+#           fi
+
+#       - name: Update README
+#         if: steps.update-counter.outputs.changed == 'true'
+#         run: |
+#           # Replace placeholder with actual profile views count
+#           count=$(cat profile_views.txt)
+#           sed -i "s|<!-- profile_views_count_placeholder -->|Profile views count: $count|" README.md
+
+#       - name: Commit and Push Changes
+#         if: steps.update-counter.outputs.changed == 'true'
+#         run: |
+#           git config --global user.email "actions@github.com"
+#           git config --global user.name "GitHub Actions"
+#           git add profile_views.txt README.md
+#           git commit -m "Update profile views counter [skip ci]"
+#           git push origin main
+
+name: Update Profile Views
 
 on:
   push:
     branches:
-      - main  # Adjust to your default branch name if different
+      - main  # Adjust branch name as needed
 
 jobs:
-  update-counter:
+  update-profile-views:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout Repository
+      - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Update Counter
-        id: update-counter
+      - name: Increment Profile Views
         run: |
-          if [[ "$GITHUB_ACTOR" != "zakeer-official" ]]; then
-            count=$(($(cat profile_views.txt) + 1))
-            echo $count > profile_views.txt
-            echo "::set-output name=changed::true"
-          else
-            echo "::set-output name=changed::false"
-          fi
+          python profile_views.py  # Adjust filename if necessary
 
-      - name: Update README
-        if: steps.update-counter.outputs.changed == 'true'
+      - name: Update profile_views.json
         run: |
-          # Replace placeholder with actual profile views count
-          count=$(cat profile_views.txt)
-          sed -i "s|<!-- profile_views_count_placeholder -->|Profile views count: $count|" README.md
+          echo '{ "profile_views": ' $(cat profile_views.txt) '}' > profile_count.json
 
-      - name: Commit and Push Changes
-        if: steps.update-counter.outputs.changed == 'true'
-        run: |
-          git config --global user.email "actions@github.com"
-          git config --global user.name "GitHub Actions"
-          git add profile_views.txt README.md
-          git commit -m "Update profile views counter [skip ci]"
-          git push origin main
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Update profile views count"
+          commit_user_name: "GitHub Actions"
+          commit_user_email: "actions@github.com"
