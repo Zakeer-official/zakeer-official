@@ -1,8 +1,26 @@
 <h1 align="center">Hi 👋, I'm Zakeer Ahamad Shaik</h1>
 
-<h3 align="center">A passionate Software Engineer from India</h3>
+<p align="left">I am a fourth-year Computer Science and Engineering student at Amrita Vishwa Vidyapeetham, driven by a curiosity for technology and a passion for coding. I am enthusiastic about exploring new ideas in the world of computer science and sharing insights with the community.</p>
+
+
 
 <h4 align="center"><a href="https://zakeer-official.github.io/">zakeer-official.github.io</a></h4>
+
+## 🌱 Currently Exploring
+
+- 🚀 Learning Full Stack Web Development
+  - Exploring React for dynamic front-end experiences.
+  - Navigating React Router for seamless page transitions.
+  - Styling with Tailwind CSS for modern and responsive user interfaces.
+
+- 📚 Also Learning
+  - Python: Enhancing skills in Python programming for versatile application development.
+  - SQL: Acquiring skills in SQL for effective database management and administration.
+  - Git: Mastering Git version control for collaborative software development.
+
+Excited to apply these skills and contribute to innovative projects!
+
+---
 
 
 <h1 align="center"> Tech Stack </h1>
@@ -16,15 +34,15 @@
 <img src="https://skillicons.dev/icons?i=js" title="JavaScript"/>
 <img src="https://skillicons.dev/icons?i=react" title="React"/>
 <img src="https://skillicons.dev/icons?i=mysql" title="MySQL"/>
-<img src="https://skillicons.dev/icons?i=postgres" title="PostgreSQL"/>
+<!-- <img src="https://skillicons.dev/icons?i=postgres" title="PostgreSQL"/>
 <img src="https://skillicons.dev/icons?i=ubuntu" title="Ubuntu"/>
 <img src="https://skillicons.dev/icons?i=go" title="Go"/>
 <img src="https://skillicons.dev/icons?i=php" title="PHP"/>
 <img src="https://skillicons.dev/icons?i=bash" title="Bash"/>
 <img src="https://skillicons.dev/icons?i=haskell" title="Haskell"/>
-<img src="https://skillicons.dev/icons?i=scala" title="Scala"/>
+<img src="https://skillicons.dev/icons?i=scala" title="Scala"/> -->
 <img src="https://skillicons.dev/icons?i=git" title="Git"/>
-<img src="https://skillicons.dev/icons?i=githubactions" title="GitHub Actions"/>
+<!-- <img src="https://skillicons.dev/icons?i=githubactions" title="GitHub Actions"/> -->
 </div>
 
 ---
@@ -42,6 +60,7 @@
 </div>
 
 ---
+
 
 <br>
 
