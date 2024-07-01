@@ -54,9 +54,14 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'  # Specify Python version if required
+
       - name: Increment Profile Views
         run: |
-          python3 profile_views.py  # Adjust filename if necessary
+          python profile_views.py  # Adjust filename if necessary
 
       - name: Update profile_views.json
         run: |
@@ -68,3 +73,4 @@ jobs:
           commit_message: "Update profile views count"
           commit_user_name: "GitHub Actions"
           commit_user_email: "actions@github.com"
+
