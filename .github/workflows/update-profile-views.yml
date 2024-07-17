@@ -40,14 +40,15 @@
 #           git commit -m "Update profile views counter [skip ci]"
 #           git push origin main
 
+
 name: Update Profile Views
 
 on:
   schedule:
     - cron: '0 0 * * *'
-  #push:
-    #branches:
-     # - main  # Adjust branch name as needed
+  # push:
+  #   branches:
+  #     - main  # Adjust branch name as needed
 
 jobs:
   update-profile-views:
@@ -69,10 +70,20 @@ jobs:
         run: |
           echo '{ "profile_views": ' $(cat profile_views.txt) '}' > profile_count.json
 
+      - name: Configure Git
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+
+      - name: Pull remote changes
+        run: |
+          git pull origin main --rebase
+
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "Update profile views count"
           commit_user_name: "GitHub Actions"
           commit_user_email: "actions@github.com"
+
 
