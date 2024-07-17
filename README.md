@@ -93,6 +93,9 @@ Excited to apply these skills and contribute to innovative projects!
 
 <p align="center">
   <img width="800" height="220" src="https://streak-stats.demolab.com?user=zakeer-official&theme=highcontrast&hide_border=true&border_radius=5&card_width=800">
+  
+  <!-- ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=zakeer-official) -->
+
 </p>
 
 
