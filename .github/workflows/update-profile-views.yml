@@ -3,19 +3,23 @@ name: Update Profile Views
 on:
   schedule:
     - cron: '0 0 * * *'
-push:
-  branches:
-    - main  # Adjust branch name as needed
+  push:
+    branches:
+      - main  # Adjust branch name as needed
 
 jobs:
   update-profile-views:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4  # Updated to v4
+        uses: actions/checkout@v4
+
+      - name: Debug - List files in repository
+        run: |
+          ls -la
 
       - name: Setup Python
-        uses: actions/setup-python@v5  # Updated to v5
+        uses: actions/setup-python@v5
         with:
           python-version: '3.9'  # Specify a specific Python version
 
@@ -25,7 +29,15 @@ jobs:
 
       - name: Update profile_views.json
         run: |
-          echo '{ "Profile Views": ' $(cat profile_views.txt) '}' > profile_count.json
+          echo '{ "profile_views": ' $(cat profile_views.txt) '}' > profile_count.json
+
+      - name: Debug - Show profile_views.txt content
+        run: |
+          cat profile_views.txt
+
+      - name: Debug - Show profile_count.json content
+        run: |
+          cat profile_count.json
 
       - name: Configure Git
         run: |
@@ -35,7 +47,7 @@ jobs:
       - name: Pull remote changes
         run: |
           git fetch --prune
-          git pull origin main --rebase
+          git pull origin main
 
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v4
