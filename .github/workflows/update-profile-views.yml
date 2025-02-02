@@ -3,9 +3,9 @@ name: Update Profile Views
 on:
   schedule:
     - cron: '0 0 * * *'
-  # push:
-  #   branches:
-  #     - main  # Adjust branch name as needed
+push:
+  branches:
+    - main  # Adjust branch name as needed
 
 jobs:
   update-profile-views:
