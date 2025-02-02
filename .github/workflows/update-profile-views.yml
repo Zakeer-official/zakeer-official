@@ -25,7 +25,7 @@ jobs:
 
       - name: Update profile_views.json
         run: |
-          echo '{ "profile_views": ' $(cat profile_views.txt) '}' > profile_count.json
+          echo '{ "Profile Views": ' $(cat profile_views.txt) '}' > profile_count.json
 
       - name: Configure Git
         run: |
