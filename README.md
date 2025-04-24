@@ -4,7 +4,7 @@
 
 
  
-<h4 align="center"><a href="https://zack-folio.verce.app/">My Portfolio</a></h4>
+<h4 align="center"><a href="https://zack-folio.vercel.app/">My Portfolio</a></h4>
 
 ## 🌱 Currently Exploring
 
