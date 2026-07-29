@@ -1,6 +1,3 @@
-# GitHub README
-
-> This is a starter README generated from your existing profile and updated for your AI Engineer role.
 
 <h1 align="center">Hi 👋, I'm Zakeer Ahamad Shaik</h1>
 
