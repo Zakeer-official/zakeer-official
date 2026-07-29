@@ -123,8 +123,8 @@ Presented at ICTIS 2025.
 ---
 
 <p align="center">
-<img width="600" height="200" src="https://github-readme-stats.vercel.app/api?username=zakeer-official&show_icons=true&theme=vision-friendly-dark">
-<img width="400" height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zakeer-official&size_weight=0.05&count_weight=0.1&layout=compact&theme=vision-friendly-dark">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=zakeer-official&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zakeer-official&layout=compact&theme=github_dark&hide_border=true"/>
 </p>
 
 <div align="center">
