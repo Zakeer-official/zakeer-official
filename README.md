@@ -79,10 +79,10 @@ Presented at ICTIS 2025.
 
 <div align="center">
 <a href="https://github.com/zakeer-official/leetcode">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=zakeer-official&repo=leetcode&theme=buefy" />
+  <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=zakeer-official&repo=leetcode&theme=buefy" />
 </a>
 <a href="https://github.com/zakeer-official/Natural-Gas-Consumption">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=zakeer-official&repo=Natural-Gas-Consumption&theme=buefy" />
+  <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=zakeer-official&repo=Natural-Gas-Consumption&theme=buefy" />
 </a>
 </div>
 
