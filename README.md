@@ -1,7 +1,7 @@
 
 <h1 align="center">Hi 👋, I'm Zakeer Ahamad Shaik</h1>
 
-<h3 align="center">Artificial Intelligence Engineer @ Tata Consultancy Services</h3>
+<h3 align="center">Artificial Intelligence Engineer in Tata Consultancy Services</h3>
 
 <p align="center">
 Building AI solutions with Large Language Models, Generative AI, Computer Vision, NLP, and Machine Learning.
