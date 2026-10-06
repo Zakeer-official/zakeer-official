@@ -1,4 +1,3 @@
-
 <h1 align="center">Hi 👋, I'm Zakeer Ahamad Shaik</h1>
 
 <h3 align="center">Artificial Intelligence Engineer at Tata Consultancy Services</h3>
@@ -75,15 +74,15 @@ Presented at ICTIS 2025.
 
 ---
 
-#### Top Most Repositories
+### 📌 Top Most Repositories
 
 <div align="center">
-<a href="https://github.com/zakeer-official/leetcode">
-  <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=zakeer-official&repo=leetcode&theme=buefy" />
-</a>
-<a href="https://github.com/zakeer-official/Natural-Gas-Consumption">
-  <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=zakeer-official&repo=Natural-Gas-Consumption&theme=buefy" />
-</a>
+  <a href="https://github.com/zakeer-official/leetcode">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=zakeer-official&repo=leetcode&theme=tokyonight" />
+  </a>
+  <a href="https://github.com/zakeer-official/Natural-Gas-Consumption">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=zakeer-official&repo=Natural-Gas-Consumption&theme=tokyonight" />
+  </a>
 </div>
 
 ---
@@ -109,19 +108,23 @@ Presented at ICTIS 2025.
 
 <h1 align="center">GitHub Contributions Graph</h1>
 
-[![Github Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=zakeer-official&bg_color=0d1117&color=58a6ff&line=58a6ff&point=1f6feb&area=true&theme=github-dark)](https://github.com/zakeer-official)
-
----
-
 <p align="center">
-<img width="800" height="220" src="https://streak-stats.demolab.com?user=zakeer-official&theme=highcontrast&hide_border=true&border_radius=5&card_width=800">
+  <a href="https://github.com/zakeer-official">
+    <img src="https://activity-graph.herokuapp.com/graph?username=zakeer-official&bg_color=0d1117&color=58a6ff&line=58a6ff&point=1f6feb&area=true&theme=github-dark" alt="Zakeer's Activity Graph" width="100%" />
+  </a>
 </p>
 
 ---
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=zakeer-official&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=zakeer-official&layout=compact&theme=github_dark&hide_border=true"/>
+  <img width="800" height="220" src="https://streak-stats.demolab.com?user=zakeer-official&theme=highcontrast&hide_border=true&border_radius=5&card_width=800" alt="GitHub Streak" />
+</p>
+
+---
+
+<p align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=zakeer-official&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zakeer-official&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
 
 <div align="center">
